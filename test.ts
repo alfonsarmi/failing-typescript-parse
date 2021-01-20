@@ -15,7 +15,7 @@ const pie = {
 };
 
 let myName: string = "Tester";
-let printName = (name: string) ={
+let printName = (name: string) =>{
     console.log(name);
 }
 
