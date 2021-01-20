@@ -14,10 +14,10 @@ const pie = {
   type: "Apple",
 };
 
-const newVariable = {
-  owner: userAccount,
-  item: pie,
-};
+let myName: string = "Tester";
+let printName = (name: string) ={
+    console.log(name);
+}
 
 // If you use your mouse to hover over some of these words
 // (try newVariable above) you can see how TypeScript is
